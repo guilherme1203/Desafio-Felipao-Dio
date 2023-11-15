@@ -11,3 +11,20 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+
+--------ANOTACÕES DE CÓDIGOS DE GIT--------
+echo "#Teste" >> nome e extencão do arquivo 
+git init  
+git add  nome e extencão do arquivo
+git commit -m "nome do commit" 
+git branch -M main 
+git remote add origin link do repositorio 
+ git push -u origin main
+
+ comandos para enviar os commit para o GitHub
+
+  git add . || git add  nome e extencão do arquivo
+  git commit -m "nome do commit"
+  git push -u origin main
+   

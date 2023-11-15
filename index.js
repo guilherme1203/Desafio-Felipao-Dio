@@ -1,28 +1,28 @@
-let nickname = ""
-let xp = 1.000
+let nickname = "FELIPÃO"
+let xp = 11.000
 
 if (xp <= 1.000){
-    console.log(nickname + " está no Nível FERRO" )
+    console.log("O Heroi de Nome " + nickname + " Está No nível FERRO")
 }
 else if ((xp > 1.000) && (xp < 2.001)){
-    console.log( " está no nível BRONZE")
+    console.log("O Heroi de Nome " + nickname + " Está No nível BRONZE")
 }
 else if((xp > 2.000) && (xp < 5.001)){
-    console.log( " está no nível PRATA")
+    console.log("O Heroi de Nome " + nickname + " Está No nível PRATA")
 }
 else if((xp > 5.000) && (xp < 7.001)){
-    console.log( " está no Nível OURO")
+    console.log("O Heroi de Nome " + nickname + " Está No nível OURO")
 }
 else if((xp > 7.000) && (xp < 8.001 )){
-    console.log (" está no Nível PLATINA")
+    console.log ("O Heroi de Nome " + nickname + " Está No nível PLATINA")
 }
 else if((xp > 8.000) && (xp < 9.001 )){
-    console.log (" está no Nível ASCENDENTE")
+    console.log ("O Heroi de Nome " + nickname + " Está No nível ASCENDENTE")
 }
 else if((xp > 9.000) && (xp < 10.001 )){
-    console.log (" está no Nível Imortal")
+    console.log ("O Heroi de Nome " + nickname + " IMORTAL")
 }
-else{
-
+else {
+    console.log("O Heroi de Nome " + nickname + " Está No nível RADIANTE")
 }
 
